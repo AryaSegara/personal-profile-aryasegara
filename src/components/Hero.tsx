@@ -84,7 +84,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.3 }}
           >
             <motion.span
-              className="text-cyan-400 block"
+              className="text-blue-500 block"
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.4 }}
@@ -92,7 +92,7 @@ const Hero: React.FC = () => {
               Hi, I'm
             </motion.span>
             <motion.span
-              className="bg-gradient-to-r from-cyan-500 to-purple-500 bg-clip-text text-transparent"
+              className="bg-gradient-to-r from-blue-400 to-emerald-400 bg-clip-text text-transparent"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ delay: 0.5 }}
@@ -108,7 +108,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.6 }}
           >
             <motion.h2
-              className="text-xl md:text-2xl font-semibold text-cyan-400 min-h-[2.5rem] flex items-center"
+              className="text-xl md:text-2xl font-semibold text-blue-400 min-h-[2.5rem] flex items-center"
               key={currentRoleIndex}
             >
               {displayedRole}
@@ -162,7 +162,7 @@ const Hero: React.FC = () => {
           >
             <motion.a
               href="#projects"
-              className="px-6 py-3 bg-gradient-to-r from-cyan-500 to-purple-500 text-white rounded-full shadow-lg hover:shadow-cyan-500/25 transition-all"
+              className="px-6 py-3 bg-gradient-to-r from-blue-500 to-emerald-300 text-white rounded-full shadow-lg hover:shadow-cyan-500/25 transition-all"
               whileHover={{
                 scale: 1.05,
                 boxShadow: "0 10px 25px -5px rgba(6, 182, 212, 0.25)",

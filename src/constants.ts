@@ -30,20 +30,20 @@ export const projects: Project[] = [
     description:
       "HayMart POS API adalah RESTful backend berbasis Spring Boot 3.4.4 untuk mendukung aplikasi kasir (POS) modern. Menyediakan autentikasi JWT, manajemen kasir & produk, transaksi pembelian, laporan penjualan, dan dokumentasi Swagger. Cocok untuk minimarket, apotek, atau toko retail lainnya.",
     tech: ["Java","React", "SpringBoot", "MariaDb", "JPA/Hibernate", "Spring Security + JWT", "Apache POI"],
-    github: "https://github.com/Wahyudi120505/haymart-pos-api",
+    github: "https://github.com/AryaSegara/Project-Java-KenMovie ",
     type : "REST API",
     bagian : "FULL STACK",
     visit: "",
   },
   {
-    title: "Sound Sphere",
-    image: "",
+    title: "Ratatouille",
+    image: "https://i.pinimg.com/736x/e9/bd/17/e9bd17a2a42b6a100f8009663f16715d.jpg",
     description:
-      "Platform web modern untuk streaming musik yang terhubung dengan Spotify API. Aplikasi ini mencakup fitur seperti autentikasi pengguna, pencarian lagu, pemutaran musik, manajemen playlist, dan antarmuka pengguna yang responsif serta intuitif. Memberikan pengalaman mendengarkan musik yang cepat, aman, dan menyenangkan di berbagai perangkat.",
+        "This website is a dedicated platform for culinary enthusiasts, providing a variety of food and beverage menus complete with information such as dish descriptions, menu categories, prices, customer ratings, and availability. With an attractive interface and intuitive navigation, this website is designed to provide the best experience for restaurant visitors online.",
     tech: ["HTML", "CSS", "JS"],
-    github: "https://github.com/Wahyudi120505/AHMAD_WAHYUDI_TANJUNG",
-    type : "REST API",
-    bagian : "Front-End",
+    github: "https://github.com/AryaSegara/Project-HTML ",
+    type : "UI",
+    bagian : "FRONT-END",
     visit: "",
   },
 

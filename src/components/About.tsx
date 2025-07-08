@@ -138,7 +138,7 @@ const About: React.FC = () => {
           >
             <div className="relative">
               <img
-                className="rounded-3xl w-48 h-48 sm:w-56 sm:h-56 md:w-64 md:h-64 object-cover shadow-2xl shadow-cyan-500/20 border-2 border-cyan-500/50 transition-all duration-300"
+                className="rounded-3xl w-80 min-h-72 sm:w-56 sm:h-56 md:w-64 md:h-64 object-cover shadow-2xl shadow-cyan-500/20 border-2 border-cyan-500/50 transition-all duration-300"
                 src={profile}
                 alt="Arya Segara - Backend Developer"
                 loading="lazy"

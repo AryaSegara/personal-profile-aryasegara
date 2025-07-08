@@ -129,7 +129,7 @@ const Header: React.FC = () => {
     >
       <div className="flex flex-shrink-0">
         <motion.h1
-          className="text-2xl sm:text-3xl bg-gradient-to-r from-cyan-500 to-purple-500 bg-clip-text tracking-tight text-transparent font-semibold"
+          className="text-2xl sm:text-3xl bg-gradient-to-r from-blue-700 to-blue-300 bg-clip-text tracking-tight text-transparent font-semibold"
           variants={titleVariants}
           initial="initial"
           animate="animate"
@@ -170,7 +170,7 @@ const Header: React.FC = () => {
               >
                 {/* Glows and spark effects */}
                 <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400/30 to-purple-500/30 blur-xl scale-0 group-hover:scale-200 transition-transform duration-500 ease-out pointer-events-none" />
-                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-purple-500 opacity-0 group-hover:opacity-100 scale-110 group-hover:scale-130 transition-all duration-300 ease-out pointer-events-none blur-sm" />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-r from-cyan-400 to-blue-300 opacity-0 group-hover:opacity-100 scale-110 group-hover:scale-130 transition-all duration-300 ease-out pointer-events-none blur-sm" />
                 <div className="absolute inset-0 rounded-full border-2 border-cyan-400/0 group-hover:border-cyan-400/70 scale-100 group-hover:scale-140 transition-all duration-400 ease-out pointer-events-none animate-pulse opacity-0 group-hover:opacity-100" />
 
                 {/* Electric spark effects */}

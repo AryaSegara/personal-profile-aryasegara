@@ -8,6 +8,7 @@ import TechStack from "./components/TechStack";
 
 // 1. IMPOR DATA PROJECTS DARI FILE CONSTANTS
 import { projects } from "./constants.ts"; // Pastikan path/jalur filenya sudah benar
+import Footer from "./components/Footer.tsx";
 
 // Loading Screen
 const LoadingScreen: React.FC = () => {
@@ -266,9 +267,10 @@ const App: React.FC = () => {
             <Projects projects={projects} />
           </motion.div>
 
+
           <motion.footer
             variants={sectionVariants}
-            className="border-t border-neutral-800 py-8 mt-20 text-center"
+            className="border-t border-neutral-800 py-2 text-center"
           >
             <p className="text-neutral-500">© 2025 Arya Segara</p>
             <motion.div
@@ -279,6 +281,8 @@ const App: React.FC = () => {
             />
           </motion.footer>
         </div>
+
+        <Footer />
 
         <NavigationDots />
         <ScrollToTop />
