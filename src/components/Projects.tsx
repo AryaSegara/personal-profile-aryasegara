@@ -14,7 +14,7 @@ import {
   FaEnvelope,
   FaNodeJs,
 } from "react-icons/fa";
-import { SiSpring, SiSwagger, SiMysql, SiJavascript, SiMariadb, SiTypescript, SiVite } from "react-icons/si";
+import { SiSpring, SiSwagger, SiMysql, SiJavascript, SiMariadb, SiTypescript, SiVite, SiTailwindcss } from "react-icons/si";
 import { TbFileReport } from "react-icons/tb";
 import type { Project } from "../constants";
 // import { Project } from "./constants"; // 👈 Impor tipe Project dari constants
@@ -41,7 +41,7 @@ const techStackMap: { [key: string]: { icon: JSX.Element; name: string } } = {
   TS: {icon: <SiTypescript className="text-blue-500" />,name: "TypeScript",},
   React: { icon: <FaReact className="text-sky-500" />, name: "React" },
   Thymeleaf: { icon: <FaCode className="text-green-400" />, name: "Thymeleaf" },
-  "Tailwind CSS": {icon: <FaCode className="text-cyan-400" />,name: "Tailwind CSS",},
+"Tailwind CSS": {icon: <SiTailwindcss className="text-cyan-400" />,name: "Tailwind CSS",},
   Vite: {icon: <SiVite className="text-purple-500" />,name: "Vite",},
 
   // Tools & API

@@ -95,7 +95,7 @@ export const projects: Project[] = [
     title: "My Portfolio",
     image: portfolio,
     description:
-    "Data-Book is a full-stack web application I built to present a book catalog to the public, complete with a separate admin panel for data management. The project combines a modern, interactive frontend with a robust backend. Public users can easily browse and search the book collection, while admins have full control over the content through a secure dashboard.The project is designed with a clear client-server architecture: React.js as the client handling data presentation and Node.js/Express.js as the server providing data through an API.The main goal of this project was to build a scalable full-stack application, practice component-based development with React, and implement a secure content management system. The result is a functional, modern, and easy-to-manage book catalog platform.",
+    "This is my personal portfolio website, a digital platform designed and developed from the ground up to serve as my professional showcase. This website is not just a gallery of projects, but also a project in itself, demonstrating my ability to design, develop, and launch modern, functional, aesthetically pleasing, and high-performance web applications.",
     tech: ["React","TS","Vite","Tailwind CSS"],
     github: "https://github.com/AryaSegara/personal-profile-aryasegara",
     type : "REST API",
