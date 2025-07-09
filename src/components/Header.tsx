@@ -113,7 +113,7 @@ const Header: React.FC = () => {
       label: "Visit GitHub Profile",
     },
     {
-      href: "https://www.instagram.com",
+      href: "https://www.instagram.com/aryaa_sgra/",
       icon: FaInstagram,
       color: "text-red-400",
       label: "Visit Instagram Profile",
