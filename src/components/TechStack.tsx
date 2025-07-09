@@ -13,7 +13,8 @@ import {
   SiCss3,
   SiExpress,
   SiTypescript,
-  SiMariadb
+  SiMariadb,
+  SiVite
   
 } from "react-icons/si";
 import { BiLogoSpringBoot, BiLogoPostgresql,BiLogoNodejs, BiLogoBootstrap } from "react-icons/bi";
@@ -66,14 +67,15 @@ const techs: TechItem[] = [
   { icon: <SiMariadb />, name: "MariaDB", color: "#003545" },
   { icon: <SiJavascript />, name: "JavaScript", color: "#F0DB4F" },
   { icon: <SiTypescript />, name: "TypeScript", color: "#3178C6" },
+  { icon: <SiVite />, name: "Vite", color: "#646CFF" },
   { icon: <SiC />, name: "C", color: "#A8B9CC" },
   { icon: <SiSwagger />, name: "Swagger", color: "#6BA539" },
   { icon: <SiGit />, name: "Git", color: "#F1502F" },
   { icon: <SiGithub />, name: "GitHub", color: "#fff" },
   { icon: <SiHtml5 />, name: "HTML5", color: "#E34F26" },
   { icon: <SiCss3 />, name: "CSS3", color: "#1572B6" },
-  { icon: <SiExpress />, name: "Express.js", color: "#000000" },
   { icon: <BiLogoBootstrap />, name: "Bootstrap", color: "#7952B3" },
+  { icon: <SiExpress />, name: "Express.js", color: "#000000" },
 ];
 
 const TechStack: React.FC = () => {

@@ -11,12 +11,76 @@ interface Skill {
 const About: React.FC = () => {
   // Skills data
   const skills: Skill[] = [
-    { name: "Java", color: "from-red-500/20 to-red-500/30", text: "text-red-400" },
-    { name: "Spring Boot", color: "from-green-600/20 to-green-600/30", text: "text-green-400" },
-    { name: "Microservices", color: "from-blue-500/20 to-blue-500/30", text: "text-blue-400" },
-    { name: "REST API", color: "from-purple-500/20 to-purple-500/30", text: "text-purple-400" },
-    { name: "Docker", color: "from-cyan-500/20 to-cyan-500/30", text: "text-cyan-400" },
-    { name: "Problem Solving", color: "from-yellow-500/20 to-yellow-500/30", text: "text-yellow-400" },
+    {
+      name: "Java",
+      color: "from-red-500/20 to-red-500/30",
+      text: "text-red-400",
+    },
+    {
+      name: "Spring Boot",
+      color: "from-green-600/20 to-green-600/30",
+      text: "text-green-400",
+    },
+    {
+      name: "REST API",
+      color: "from-purple-500/20 to-purple-500/30",
+      text: "text-purple-400",
+    },
+    {
+      name: "Problem Solving",
+      color: "from-yellow-500/20 to-yellow-500/30",
+      text: "text-yellow-400",
+    },
+    {
+      name: "Node.js",
+      color: "from-green-500/20 to-green-500/30",
+      text: "text-green-400",
+    },
+    {
+      name: "MySQL",
+      color: "from-sky-500/20 to-sky-500/30",
+      text: "text-sky-400",
+    },
+    {
+      name: "PostgreSQL",
+      color: "from-blue-600/20 to-blue-600/30",
+      text: "text-blue-400",
+    },
+    {
+      name: "MongoDB",
+      color: "from-emerald-500/20 to-emerald-500/30",
+      text: "text-emerald-400",
+    },
+    {
+      name: "Express.js",
+      color: "from-slate-500/20 to-slate-500/30",
+      text: "text-slate-400",
+    },
+    {
+      name: "HTML5",
+      color: "from-orange-500/20 to-orange-500/30",
+      text: "text-orange-400",
+    },
+    {
+      name: "CSS3",
+      color: "from-blue-500/20 to-blue-500/30",
+      text: "text-blue-400",
+    },
+    {
+      name: "Bootstrap",
+      color: "from-purple-500/20 to-purple-500/30",
+      text: "text-purple-400",
+    },
+    {
+      name: "React",
+      color: "from-cyan-500/20 to-cyan-500/30",
+      text: "text-cyan-400",
+    },
+    {
+      name: "TypeScript",
+      color: "from-blue-600/20 to-blue-600/30",
+      text: "text-blue-400",
+    },
   ];
 
   // Animation variants
@@ -174,20 +238,15 @@ const About: React.FC = () => {
               className="text-neutral-400 text-base sm:text-lg leading-relaxed"
               variants={itemVariants}
             >
-              Saya adalah seorang backend developer yang berpengalaman dalam membangun sistem{" "}
-              <span className="text-cyan-400 font-medium">scalable</span> dan{" "}
-              <span className="text-cyan-400 font-medium">high-performance</span>. Dengan pendekatan
-              yang terstruktur dan detail-oriented.
-            </motion.p>
-
-            <motion.p
-              className="text-neutral-400 text-base sm:text-lg leading-relaxed"
-              variants={itemVariants}
-            >
-              Spesialisasi utama saya adalah dalam pengembangan{" "}
-              <span className="text-cyan-400 font-medium">microservices architecture</span>{" "}
-              menggunakan <span className="text-cyan-400 font-medium">Java Spring Boot</span> dan{" "}
-              <span className="text-cyan-400 font-medium">cloud-native</span> applications.
+              Hi, I'm Arya Segara - a full-stack web developer focused on
+              developing modern, responsive, and interactive applications. I
+              also build scalable back-ends with Java (Spring Boot), Node.js
+              (Express.js), and TypeScript. I also build responsive front-ends
+              with React.js. With support for databases like PostgreSQL, MySQL,
+              or MongoDB, I prioritize performance, clean code structure, and a
+              smooth user experience. I develop every project, from the
+              interface to the behind-the-scenes logic, to deliver functional
+              and efficient digital solutions.
             </motion.p>
 
             {/* Skills */}
@@ -196,7 +255,7 @@ const About: React.FC = () => {
                 className="text-xl font-semibold text-neutral-300 mb-4"
                 variants={itemVariants}
               >
-                Technical Expertise:
+                Expertise:
               </motion.h3>
               <div className="flex flex-wrap gap-3 justify-center lg:justify-start">
                 {skills.map((skill: Skill, index: number) => (
@@ -214,19 +273,6 @@ const About: React.FC = () => {
                   </motion.span>
                 ))}
               </div>
-            </motion.div>
-
-            {/* Quote */}
-            <motion.div className="pt-6" variants={itemVariants}>
-              <motion.blockquote
-                className="text-neutral-400 italic text-base sm:text-lg border-l-4 border-cyan-500 pl-4 py-2"
-                initial={{ opacity: 0, x: -20 }}
-                animate={{ opacity: 1, x: 0 }}
-                transition={{ delay: 0.8 }}
-              >
-                "Passionate about creating elegant solutions to complex problems through clean code
-                and architecture."
-              </motion.blockquote>
             </motion.div>
           </motion.div>
         </div>

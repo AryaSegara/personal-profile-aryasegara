@@ -135,7 +135,7 @@ const Hero: React.FC = () => {
             transition={{ delay: 0.7 }}
           >
             <p className="text-gray-400 mb-8 max-w-md mx-auto md:mx-0">
-              {"As a web developer, I am an expert in backend and frontend. I use React to create interactive UIs and Springboot and Node.js to build APIs. which uses MySQL, PostgreSQL, MariaDb and MongoDb databases.".split(
+              {"As a web developer, I am an expert in backend and frontend. I use React to create interactive UIs and Java (Springboot) and Node.js (Express) to build APIs. which uses MySQL, PostgreSQL, MariaDb and MongoDb databases.".split(
                 " "
               ).map((word, i) => (
                 <motion.span

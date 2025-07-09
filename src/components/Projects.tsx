@@ -10,8 +10,11 @@ import {
   FaDatabase,
   FaShieldAlt,
   FaReact,
+  FaFilePdf,
+  FaEnvelope,
+  FaNodeJs,
 } from "react-icons/fa";
-import { SiSpring, SiSwagger, SiMysql, SiJavascript } from "react-icons/si";
+import { SiSpring, SiSwagger, SiMysql, SiJavascript, SiMariadb, SiTypescript, SiVite } from "react-icons/si";
 import { TbFileReport } from "react-icons/tb";
 import type { Project } from "../constants";
 // import { Project } from "./constants"; // 👈 Impor tipe Project dari constants
@@ -21,61 +24,35 @@ import type { Project } from "../constants";
 const techStackMap: { [key: string]: { icon: JSX.Element; name: string } } = {
   // Backend & Database
   Java: { icon: <FaJava className="text-red-400" />, name: "Java" },
-  SpringBoot: {
-    icon: <SiSpring className="text-green-500" />,
-    name: "Spring Boot",
-  },
+  SpringBoot: {icon: <SiSpring className="text-green-500" />,name: "Spring Boot",},
   MySQL: { icon: <SiMysql className="text-blue-400" />, name: "MySQL" },
-  "JPA/Hibernate": {
-    icon: <FaDatabase className="text-amber-500" />,
-    name: "JPA/Hibernate",
-  },
-  "Spring Security + JWT": {
-    icon: <FaShieldAlt className="text-blue-300" />,
-    name: "Spring Security",
-  },
+  "JPA/Hibernate": {icon: <FaDatabase className="text-amber-500" />,name: "JPA/Hibernate",},
+  "Spring Security + JWT": {icon: <FaShieldAlt className="text-blue-300" />,name: "Spring Security",},
+
+  "Apache PDFBox": { icon: <FaFilePdf className="text-red-500" />, name: "Apache PDFBox" },
+  "Spring MailSender": { icon: <FaEnvelope className="text-sky-500" />, name: "Spring MailSender" },
+  "MariaDB": { icon: <SiMariadb className="text-cyan-950" />, name: "MariaDB" },
+  "NodeJs": { icon: <FaNodeJs className="text-green-600" />, name: "Node.js" },
 
   // Frontend & Lainnya
   HTML: { icon: <FaHtml5 className="text-orange-500" />, name: "HTML" },
   CSS: { icon: <FaCss3 className="text-blue-500" />, name: "CSS" },
-  JS: {
-    icon: <SiJavascript className="text-yellow-400" />,
-    name: "JavaScript",
-  },
+  JS: {icon: <SiJavascript className="text-yellow-400" />,name: "JavaScript",},
+  TS: {icon: <SiTypescript className="text-blue-500" />,name: "TypeScript",},
   React: { icon: <FaReact className="text-sky-500" />, name: "React" },
   Thymeleaf: { icon: <FaCode className="text-green-400" />, name: "Thymeleaf" },
-  "Tailwind CSS": {
-    icon: <FaCode className="text-cyan-400" />,
-    name: "Tailwind CSS",
-  },
+  "Tailwind CSS": {icon: <FaCode className="text-cyan-400" />,name: "Tailwind CSS",},
+  Vite: {icon: <SiVite className="text-purple-500" />,name: "Vite",},
 
   // Tools & API
-  Swagger: {
-    icon: <SiSwagger className="text-emerald-400" />,
-    name: "Swagger",
-  },
-  "Apache POI": {
-    icon: <TbFileReport className="text-red-300" />,
-    name: "Apache POI",
-  },
-  "API Spotify": {
-    icon: <FaCode className="text-green-500" />,
-    name: "Spotify API",
-  },
+  Swagger: {icon: <SiSwagger className="text-emerald-400" />,name: "Swagger",},
+  "Apache POI": {icon: <TbFileReport className="text-red-300" />,name: "Apache POI",},
+  "API Spotify": {icon: <FaCode className="text-green-500" />,name: "Spotify API",},
 
   // Bahasa & CLI
-  "C Language": {
-    icon: <FaCode className="text-blue-600" />,
-    name: "C Language",
-  },
-  "Command-Line Interface (CLI)": {
-    icon: <FaCode className="text-gray-400" />,
-    name: "CLI",
-  },
-  "File Handling": {
-    icon: <FaCode className="text-gray-400" />,
-    name: "File Handling",
-  },
+  "C Language": {icon: <FaCode className="text-blue-600" />,name: "C Language",},
+  "Command-Line Interface (CLI)": {icon: <FaCode className="text-gray-400" />,name: "CLI",},
+  "File Handling": {icon: <FaCode className="text-gray-400" />,name: "File Handling",},
 };
 
 // Definisikan props untuk komponen Projects
