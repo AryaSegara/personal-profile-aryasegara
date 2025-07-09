@@ -30,7 +30,7 @@ export const projects: Project[] = [
     image: "https://i.pinimg.com/736x/f9/09/ff/f909ff5250d6b365fd6e0fc69d6c712f.jpg",
     description:
       "This movie website provides movie trailers and features such as search, viewing available movies from the database, complete with advanced filtering options and an interactive UI.There is also an admin login feature that provides its own dashboard after admin login. The results of React JS training, Java Spring Boot using Spring Security",
-    tech: ["Java","React", "SpringBoot", "MariaDb", "JPA/Hibernate", "Spring Security + JWT", "Apache POI","Vite"],
+    tech: ["Java","React", "SpringBoot", "MariaDb", "JPA/Hibernate", "Spring Security + JWT", "Apache POI","Vite","Tailwind CSS"],
     github: "https://github.com/AryaSegara/Project-Java-KenMovie ",
     type : "REST API",
     bagian : "FULL STACK",
@@ -85,7 +85,7 @@ export const projects: Project[] = [
     image: reactExpress,
     description:
     "Data-Book is a full-stack web application I built to present a book catalog to the public, complete with a separate admin panel for data management. The project combines a modern, interactive frontend with a robust backend. Public users can easily browse and search the book collection, while admins have full control over the content through a secure dashboard.The project is designed with a clear client-server architecture: React.js as the client handling data presentation and Node.js/Express.js as the server providing data through an API.The main goal of this project was to build a scalable full-stack application, practice component-based development with React, and implement a secure content management system. The result is a functional, modern, and easy-to-manage book catalog platform.",
-    tech: ["React","NodeJs","MySQL","JS","Vite"],
+    tech: ["React","NodeJs","MySQL","JS","Vite","Tailwind CSS"],
     github: "https://github.com/AryaSegara/Ken-Book-Inventory",
     type : "REST API",
     bagian : "FULL STACK",
@@ -96,7 +96,7 @@ export const projects: Project[] = [
     image: portfolio,
     description:
     "Data-Book is a full-stack web application I built to present a book catalog to the public, complete with a separate admin panel for data management. The project combines a modern, interactive frontend with a robust backend. Public users can easily browse and search the book collection, while admins have full control over the content through a secure dashboard.The project is designed with a clear client-server architecture: React.js as the client handling data presentation and Node.js/Express.js as the server providing data through an API.The main goal of this project was to build a scalable full-stack application, practice component-based development with React, and implement a secure content management system. The result is a functional, modern, and easy-to-manage book catalog platform.",
-    tech: ["React","TS","Vite"],
+    tech: ["React","TS","Vite","Tailwind CSS"],
     github: "https://github.com/AryaSegara/personal-profile-aryasegara",
     type : "REST API",
     bagian : "FULL STACK",
