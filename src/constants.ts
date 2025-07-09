@@ -98,8 +98,8 @@ export const projects: Project[] = [
     "This is my personal portfolio website, a digital platform designed and developed from the ground up to serve as my professional showcase. This website is not just a gallery of projects, but also a project in itself, demonstrating my ability to design, develop, and launch modern, functional, aesthetically pleasing, and high-performance web applications.",
     tech: ["React","TS","Vite","Tailwind CSS"],
     github: "https://github.com/AryaSegara/personal-profile-aryasegara",
-    type : "REST API",
-    bagian : "FULL STACK",
+    type : "UI",
+    bagian : "FRONT-END",
     visit: "",
   },
   {

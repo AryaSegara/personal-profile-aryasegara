@@ -36,7 +36,9 @@ const Footer: React.FC = () => {
       href: "https://www.linkedin.com/in/arya-segara-296911358/",
       name: "LinkedIn",
     },
-    { icon: <FaInstagram />, href: "https://www.instagram.com/aryaa_sgra/", name: "Instagram" },
+    { icon: <FaInstagram />, 
+      href: "https://www.instagram.com/aryaa_sgra/", 
+      name: "Instagram" },
   ];
 
   // 💡 Terapkan tipe 'Variants' pada objek animasi
