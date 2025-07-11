@@ -236,7 +236,7 @@ const About: React.FC = () => {
               Hi, I'm Arya Segara - a full-stack web developer focused on
               developing modern, responsive, and interactive applications. I
               also build scalable back-ends with Java (Spring Boot), Node.js
-              (Express.js), and TypeScript. I also build responsive front-ends
+              (Express.js). I also build responsive front-ends
               with React.js. With support for databases like PostgreSQL, MySQL,
               or MongoDB, I prioritize performance, clean code structure, and a
               smooth user experience. I develop every project, from the
