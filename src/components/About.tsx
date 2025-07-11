@@ -27,11 +27,6 @@ const About: React.FC = () => {
       text: "text-purple-400",
     },
     {
-      name: "Problem Solving",
-      color: "from-yellow-500/20 to-yellow-500/30",
-      text: "text-yellow-400",
-    },
-    {
       name: "Node.js",
       color: "from-green-500/20 to-green-500/30",
       text: "text-green-400",
@@ -231,7 +226,7 @@ const About: React.FC = () => {
               className="text-2xl sm:text-3xl font-bold text-cyan-400 mb-4"
               variants={itemVariants}
             >
-              Backend Developer & Problem Solver
+              FullStack Developer
             </motion.h2>
 
             <motion.p
