@@ -42,7 +42,7 @@ const About: React.FC = () => {
       text: "text-blue-400",
     },
     {
-      name: "MongoDB",
+      name: "MariaDb",
       color: "from-emerald-500/20 to-emerald-500/30",
       text: "text-emerald-400",
     },
@@ -238,7 +238,7 @@ const About: React.FC = () => {
               also build scalable back-ends with Java (Spring Boot), Node.js
               (Express.js). I also build responsive front-ends
               with React.js. With support for databases like PostgreSQL, MySQL,
-              or MongoDB, I prioritize performance, clean code structure, and a
+              or MariaDb, I prioritize performance, clean code structure, and a
               smooth user experience. I develop every project, from the
               interface to the behind-the-scenes logic, to deliver functional
               and efficient digital solutions.
