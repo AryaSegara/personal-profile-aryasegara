@@ -14,11 +14,12 @@ import {
   SiExpress,
   SiTypescript,
   SiMariadb,
-  SiVite
+  SiVite,
+  SiDotnet,
   
 } from "react-icons/si";
 import { BiLogoSpringBoot, BiLogoPostgresql,BiLogoNodejs, BiLogoBootstrap } from "react-icons/bi";
-import { FaJava } from "react-icons/fa";
+import { FaCode, FaDatabase, FaJava } from "react-icons/fa";
 
 // Animation variants
 const techStackVariants: Variants = {
@@ -76,6 +77,9 @@ const techs: TechItem[] = [
   { icon: <SiCss3 />, name: "CSS3", color: "#1572B6" },
   { icon: <BiLogoBootstrap />, name: "Bootstrap", color: "#7952B3" },
   { icon: <SiExpress />, name: "Express.js", color: "#000000" },
+  { icon: <FaCode />, name: "C#", color: "#9B4F96" },
+  { icon: <SiDotnet />, name: ".NET Core", color: "#512BD4" },
+  { icon: <FaDatabase />, name: "SQL Server", color: "#CC2927" },
 ];
 
 const TechStack: React.FC = () => {

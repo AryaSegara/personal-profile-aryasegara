@@ -76,6 +76,21 @@ const About: React.FC = () => {
       color: "from-blue-600/20 to-blue-600/30",
       text: "text-blue-400",
     },
+    {
+      name: "C#",
+      color: "from-purple-500/20 to-purple-500/30",
+      text: "text-purple-400",
+    },
+    {
+      name: ".NET Core",
+      color: "from-violet-500/20 to-violet-500/30",
+      text: "text-violet-400",
+    },
+    {
+      name: "SQL Server",
+      color: "from-red-600/20 to-red-600/30",
+      text: "text-red-400",
+    },
   ];
 
   // Animation variants
@@ -235,9 +250,9 @@ const About: React.FC = () => {
             >
               Hi, I'm Arya Segara - a full-stack web developer focused on
               developing modern, responsive, and interactive applications. I
-              also build scalable back-ends with Java (Spring Boot), Node.js
+              also build scalable back-ends with Java (Spring Boot),C#(.Net Core), Node.js
               (Express.js). I also build responsive front-ends
-              with React.js. With support for databases like PostgreSQL, MySQL,
+              with React.js. With support for databases like PostgreSQL, MySQL, SQL Server,
               or MariaDb, I prioritize performance, clean code structure, and a
               smooth user experience. I develop every project, from the
               interface to the behind-the-scenes logic, to deliver functional
