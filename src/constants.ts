@@ -41,7 +41,7 @@ export const projects: Project[] = [
     image: javaLanjutan,
     description:
         "This RESTful API is designed to support an e-commerce system focused on selling shoe products. It provides various endpoints that allow users to perform CRUD (Create, Read, Update, Delete) operations on shoe product data, categories, users, and purchase transactions. Key features of this API include user authentication (login and registration), shoe catalog management, product search, shopping cart management, and order processing.Comprehensive documentation is also provided using Swagger or Postman to facilitate integration by other developers.",
-    tech: ["Java", "SpringBoot","Swagger", "MariaDb", "JPA/Hibernate","Apache PDFBox", "Spring MailSender", "Spring Security + JWT", "Apache POI"],
+    tech: ["Java", "SpringBoot","Swagger", "PostgreSQL", "JPA/Hibernate","Apache PDFBox", "Spring MailSender", "Spring Security + JWT", "Apache POI"],
     github: "https://github.com/AryaSegara/Ecommers_Store",
     type : "REST API",
     bagian : "BACKEND",
