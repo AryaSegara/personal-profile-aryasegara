@@ -37,7 +37,7 @@ export const projects: Project[] = [
     visit: "",
   },
   {
-    title: "Shoes Store",
+    title: "Selling Shoes",
     image: javaLanjutan,
     description:
         "This RESTful API is designed to support an e-commerce system focused on selling shoe products. It provides various endpoints that allow users to perform CRUD (Create, Read, Update, Delete) operations on shoe product data, categories, users, and purchase transactions. Key features of this API include user authentication (login and registration), shoe catalog management, product search, shopping cart management, and order processing.Comprehensive documentation is also provided using Swagger or Postman to facilitate integration by other developers.",
@@ -54,7 +54,18 @@ export const projects: Project[] = [
         "This website is an e-commerce platform specifically designed to make it easier for users to shop for mobile phones online. Users can search for the type of phone they need using the search feature or browse the various product options available by brand or price. Each product can be easily added to a shopping cart, allowing users to collect several options before completing the transaction. After selecting the desired phone, users can go to the shopping cart page to review the order details and proceed to payment. Customers can also cancel if the items in the cart do not match their wishes.",
     tech: ["Java","Thymeleaf","MariaDb","SpringBoot","HTML", "CSS", "JS"],
     github: "https://github.com/AryaSegara/ecommers",
-    type : "REST API",
+    type : "MVC",
+    bagian : "FULL STACK",
+    visit: "",
+  },
+  {
+    title: "Shoes Store",
+    image: java,
+    description:
+        "This website is an e-commerce platform specifically designed to make it easier for users to shop for mobile phones online. Users can search for the type of phone they need using the search feature or browse the various product options available by brand or price. Each product can be easily added to a shopping cart, allowing users to collect several options before completing the transaction. After selecting the desired phone, users can go to the shopping cart page to review the order details and proceed to payment. Customers can also cancel if the items in the cart do not match their wishes.",
+    tech: ["C#","ASP.NET Core MVC",".NET CORE Framework","SQL Server","HTML", "CSS", "JS"],
+    github: "https://github.com/AryaSegara/ecommers",
+    type : "MVC",
     bagian : "FULL STACK",
     visit: "",
   },

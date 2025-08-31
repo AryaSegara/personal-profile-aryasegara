@@ -101,6 +101,8 @@ const Hero: React.FC = () => {
             </motion.span>
           </motion.h1>
 
+        
+
           <motion.div
             className="h-12 mb-4 overflow-hidden"
             initial={{ opacity: 0, y: 30 }}

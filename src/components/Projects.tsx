@@ -14,10 +14,9 @@ import {
   FaEnvelope,
   FaNodeJs,
 } from "react-icons/fa";
-import { SiSpring, SiSwagger, SiMysql, SiJavascript, SiMariadb, SiTypescript, SiVite, SiTailwindcss } from "react-icons/si";
+import { SiSpring, SiSwagger, SiMysql, SiJavascript, SiMariadb, SiTypescript, SiVite, SiTailwindcss, SiDotnet } from "react-icons/si";
 import { TbFileReport } from "react-icons/tb";
 import type { Project } from "../constants";
-// import { Project } from "./constants"; // 👈 Impor tipe Project dari constants
 
 // --- KAMUS TEKNOLOGI ---
 // Objek ini memetakan string dari `constants.ts` ke ikon dan nama yang akan ditampilkan.
@@ -28,6 +27,12 @@ const techStackMap: { [key: string]: { icon: JSX.Element; name: string } } = {
   MySQL: { icon: <SiMysql className="text-blue-400" />, name: "MySQL" },
   "JPA/Hibernate": {icon: <FaDatabase className="text-amber-500" />,name: "JPA/Hibernate",},
   "Spring Security + JWT": {icon: <FaShieldAlt className="text-blue-300" />,name: "Spring Security",},
+
+// Menggunakan ikon alternatif
+"C#": { icon: <FaCode className="text-purple-600" />, name: "C#" },  ".NET Core": { icon: <SiDotnet className="text-purple-500" />, name: ".NET Core" },
+// Menggunakan ikon FaDatabase yang lebih umum dan konsisten
+"SQL Server": { icon: <FaDatabase className="text-red-600" />, name: "SQL Server" },
+"MVC": { icon: <FaCode className="text-indigo-500" />, name: "MVC" },
 
   "Apache PDFBox": { icon: <FaFilePdf className="text-red-500" />, name: "Apache PDFBox" },
   "Spring MailSender": { icon: <FaEnvelope className="text-sky-500" />, name: "Spring MailSender" },
