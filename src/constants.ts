@@ -4,7 +4,7 @@ import c from "./assets/C.png"
 import nodejs from "./assets/NodeJs+HTML5.png"
 import reactExpress from "./assets/React+NodeJs.png"
 import portfolio from "./assets/portfolio.png"
-import csharpp from "./assets/C#.png"
+import csharpp from "./assets/cshap.png"
 /**
  * INTERFACE: Mendefinisikan struktur atau "cetak biru" dari setiap objek proyek.
  * Ini membantu TypeScript memeriksa apakah data Anda konsisten dan benar.
