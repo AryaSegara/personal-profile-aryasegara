@@ -4,6 +4,7 @@ import c from "./assets/C.png"
 import nodejs from "./assets/NodeJs+HTML5.png"
 import reactExpress from "./assets/React+NodeJs.png"
 import portfolio from "./assets/portfolio.png"
+import csharpp from "./assets/C#.png"
 /**
  * INTERFACE: Mendefinisikan struktur atau "cetak biru" dari setiap objek proyek.
  * Ini membantu TypeScript memeriksa apakah data Anda konsisten dan benar.
@@ -60,7 +61,7 @@ export const projects: Project[] = [
   },
   {
     title: "Shoes Store",
-    image: java,
+    image: csharpp,
     description:
         "This website is an e-commerce platform specifically designed to make it easier for users to shop for mobile phones online. Users can search for the type of phone they need using the search feature or browse the various product options available by brand or price. Each product can be easily added to a shopping cart, allowing users to collect several options before completing the transaction. After selecting the desired phone, users can go to the shopping cart page to review the order details and proceed to payment. Customers can also cancel if the items in the cart do not match their wishes.",
     tech: ["C#","ASP.NET Core MVC",".NET CORE Framework","SQL Server","HTML", "CSS", "JS"],
